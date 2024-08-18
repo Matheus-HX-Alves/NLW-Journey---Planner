@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  min-width: 0;
+}
+
+.rdp-root {
+  --rdp-accent-color: #3f3f46; /* Change the accent color to indigo. */
+  --rdp-accent-background-color:#3f3f46; /* Change the accent background color. */
+  /* Add more CSS variables here. */
+  --rdp-week_number-border-radius:2;
+}
